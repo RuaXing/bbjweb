@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="cn.jeeweb.modules.bbj.bbjzcotherpropert.mapper.BbjZcOtherPropertMapper" >
+
+  <sql id="Base_Column_List" >
+    t.id,
+    t.create_by AS "createBy.id",
+    t.create_date,
+    t.update_by AS "updateBy.id",
+    t.update_date,
+    t.del_flag,
+    t.remarks,
+    t.nature_of_the_assets,
+    t.address,
+    t.area,
+    t.the_ownership_of,
+    t.the_ownership_card_number,
+    t.a_mortgagee,
+    t.the_mortgage_amount,
+    t.seizure_of_the_sequence,
+    t.the_first_letter_court,
+    t.relationship,
+    t.valuation,
+    t.estimated_residual_value,
+    t.is_do
+  </sql>
+  
+</mapper>
