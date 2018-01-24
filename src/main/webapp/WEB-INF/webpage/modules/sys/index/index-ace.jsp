@@ -160,7 +160,7 @@
 					<!-- #section:basics/footer -->
 					<div class="footer-content">
 						<span class="bigger-120">
-							 <spring:message code="sys.site.bottom.copyright" />
+							<%-- <spring:message code="sys.site.bottom.copyright" />--%>
 						</span>
 					</div>
 

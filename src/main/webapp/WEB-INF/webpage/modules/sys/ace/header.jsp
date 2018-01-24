@@ -17,7 +17,8 @@
 		<a href="#" class="navbar-brand">
 			<small>
 				<i class="fa fa fa-fire"></i>
-				<spring:message code="sys.site.title" arguments="${platformName}"/>
+				半边街不良资产管理平台
+				<%--<spring:message code="sys.site.title" arguments="${platformName}"/>--%>
 			</small>
 		</a>
 
@@ -289,7 +290,7 @@
 			<!-- #section:basics/navbar.user_menu -->
 			<li class="light-blue dropdown-modal">
 				<a data-toggle="dropdown" href="#" class="dropdown-toggle">
-					<img class="nav-user-photo" src="${fns:getUser().portrait}" alt="${fns:getUser().realname}" />
+					<%--<img class="nav-user-photo" src="${fns:getUser().portrait}" alt="${fns:getUser().realname}" />--%>
 					<span class="user-info">
 						<small>欢迎您,</small>
 						${fns:getUser().realname}
@@ -304,14 +305,14 @@
 							修改密码
 						</a>
 					</li>
-					<li class="divider"></li>
+					<%--<li class="divider"></li>
                     <li>
                     	<a href="#" onclick="changeStyle('uadmin')"><i class="ace-icon fa  fa-wikipedia-w"></i>FLAT主题</a>
                     </li>
                     <li>
                     	<a href="#" onclick="changeStyle('inspinia')"><i class="ace-icon fa  fa-wikipedia-w"></i>INSPINIA主题</a>
                     </li>
-					<li class="divider"></li>
+					<li class="divider"></li>--%>
 					<li>
 						<a href="${adminPath}/logout">
 							<i class="ace-icon fa fa-power-off"></i>

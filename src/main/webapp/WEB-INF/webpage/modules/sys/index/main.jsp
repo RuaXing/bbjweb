@@ -17,7 +17,7 @@
 </head>
 
 <body class="gray-bg">
-    <div class="row  border-bottom white-bg dashboard-header">
+   <%-- <div class="row  border-bottom white-bg dashboard-header">
         <div class="col-sm-12">
             <blockquote class="text-warning" style="font-size:14px">JEEWEB是一款基于SpringMVC+Spring+Mybatis+Mybatis Plus的敏捷开发系统；它是一款具有代码生成功能的智能快速开发平台；是以Spring Framework为核心容器，Spring MVC为模型视图控制器，Mybatis为数据访问层， Apache Shiro为权限授权层，Ehcahe对常用数据进行缓存，Disruptor作为并发框架，Bootstrap作为前端框架的优秀开源系统。
 <br/>目前功能模块代码生成器、权限框架、数据字典、数据缓存、并发框架、数据监控、计划任务、多数据源管理、附件管理、UI模板标签、短信发送、邮件发送、统计功能等功能。
@@ -104,7 +104,7 @@
     </div>
  	<!-- 全局js -->
 	<html:js  name="jquery,bootstrap"/>
-
+--%>
 	<!-- 自定义js -->
 	<script src="${staticPath}/common/js/content.js"></script>
 	

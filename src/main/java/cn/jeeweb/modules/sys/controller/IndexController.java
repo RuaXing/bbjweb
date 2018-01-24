@@ -54,7 +54,7 @@ public class IndexController {
 		// 默认风格
 		String theme = JeewebPropertiesUtil.getConfig("admin.default.theme");
 		if (StringUtils.isEmpty(theme)) {
-			theme = "uadmin";
+			theme = "ace";
 		}
 		// cookies配置中的模版
 		Cookie[] cookies = request.getCookies();
