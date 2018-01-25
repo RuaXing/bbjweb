@@ -29,10 +29,9 @@
     <div class="page-form">
         <form  id="loginform"  method="post" class="form">
             <div class="header-content">
-                <h1><spring:message code="sys.login.submit.label"/></h1>
+                <h1>不良资产管理系统</h1>
             </div>
             <div class="body-content">
-                <p>不良资产管理平台欢迎您！</p>
                 <div class="form-group">
                     <div class="input-icon right"><i class="fa fa-user"></i>
                         <input name="username" class="form-control" placeholder="<spring:message code="sys.login.username.placeholder"/>" required="">
