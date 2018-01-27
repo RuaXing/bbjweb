@@ -11,7 +11,7 @@ import org.springframework.transaction.annotation.Transactional;
  * @Title: 借款合同
  * @Description: 借款合同
  * @author even
- * @date 2018-01-27 22:45:22
+ * @date 2018-01-28 00:33:19
  * @version V1.0   
  *
  */

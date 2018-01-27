@@ -17,7 +17,7 @@
     <grid:column label="本金余额"  name="principalBalance" />
     <grid:column label="利息"  name="interest" />
     <grid:column label="本息合计"  name="totalInterest" />
-    <grid:column label="保证人"  name="guarantor" />
+    <grid:column label="保证人"  name="guarantor"  query="true"  queryMode="input"  condition="like" />
     <grid:column label="抵/质押物"  name="pledge" />
     <grid:column label="诉讼阶段"  name="litigationStage"  query="true"  queryMode="select"  condition="eq"  dict="zqbssjd"/>
     <grid:column label="抵/质押物查封顺序"  name="pledgeSequence"  query="true"  queryMode="select"  condition="eq"  dict="zqbdzywcfsx"/>

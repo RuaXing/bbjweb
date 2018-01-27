@@ -14,6 +14,33 @@
 		<form:hidden path="id"/>
 		<table  class="table table-bordered  table-condensed dataTables-example dataTable no-footer">
 		   <tbody>
+				<tr>
+					<td  class="width-15 active text-right">	
+		              <label><font color="red">*</font>主键:</label>
+		            </td>
+					<td class="width-35">
+						<form:input path="id" htmlEscape="false" class="form-control"      />
+						<label class="Validform_checktip"></label>
+					</td>
+					<td  class="width-15 active text-right">	
+		              <label>债权编号:</label>
+		            </td>
+					<td class="width-35">
+						<form:input path="zqId" htmlEscape="false" class="form-control"      />
+						<label class="Validform_checktip"></label>
+					</td>
+				</tr>
+				<tr>
+					<td  class="width-15 active text-right">	
+		              <label>债务人编号:</label>
+		            </td>
+					<td class="width-35">
+						<form:input path="zwrId" htmlEscape="false" class="form-control"      />
+						<label class="Validform_checktip"></label>
+					</td>
+					<td class="width-15 active text-right"></td>
+		   			<td class="width-35" ></td>
+		  		</tr>
 		      
 		   </tbody>
 		</table>   

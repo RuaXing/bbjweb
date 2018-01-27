@@ -14,7 +14,7 @@
     <grid:column label="合同类型"  name="contractType"  query="true"  queryMode="select"  condition="eq"  dict="jkhthtlx"/>
     <grid:column label="借款人"  name="borrower"  query="true"  queryMode="input"  condition="like" />
     <grid:column label="贷款行"  name="loanLender"  query="true"  queryMode="input"  condition="like" />
-    <grid:column label="借款合同编号"  name="loanContractNo" />
+    <grid:column label="借款合同编号"  name="loanContractNo"  query="true"  queryMode="input"  condition="eq" />
     <grid:column label="合同签订日"  name="contractDate" />
     <grid:column label="合同本金"  name="contractPrincipal" />
     <grid:column label="合同本息"  name="contractAmount" />
@@ -25,7 +25,7 @@
     <grid:column label="借款结束时间"  name="borrowedEnd" />
     <grid:column label="借款用途"  name="borrowingUse"  query="true"  queryMode="select"  condition="eq"  dict="jkhtjkyt"/>
     <grid:column label="是否诉讼"  name="idLitigation"  query="true"  queryMode="select"  condition="eq"  dict="jkhtsfss"/>
-    <grid:column label="经办人"  name="agent" />
+    <grid:column label="经办人"  name="agent"  query="true"  queryMode="input"  condition="like" />
 	<grid:toolbar function="create"/>
 	<grid:toolbar function="update"/>
 	<grid:toolbar function="delete"/>

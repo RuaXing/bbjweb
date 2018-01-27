@@ -6,14 +6,14 @@ import com.baomidou.mybatisplus.annotations.TableName;
 import com.baomidou.mybatisplus.enums.IdType;
 import com.baomidou.mybatisplus.annotations.TableField;
 import com.baomidou.mybatisplus.enums.FieldFill;
-import java.util.Date;
 import cn.jeeweb.modules.sys.entity.User;
+import java.util.Date;
 
 /**   
  * @Title: 资产包
  * @Description: 资产包
  * @author even
- * @date 2018-01-27 22:22:08
+ * @date 2018-01-27 23:30:25
  * @version V1.0   
  *
  */
@@ -44,16 +44,16 @@ public class BbjZcPropertyPkg extends AbstractEntity<String> {
 	private Double sotoppi;
     /**计息截止日期*/
     @TableField(value = "interest_accrual_endtime")
-	private Date interestAccrualEndtime;
+	private String interestAccrualEndtime;
     /**贷款方转出时间*/
     @TableField(value = "cs_outtime")
-	private Date csOuttime;
+	private String csOuttime;
     /**贷款方公告时间*/
     @TableField(value = "cs_ctime")
-	private Date csCtime;
+	private String csCtime;
     /**转让方转出时间*/
     @TableField(value = "transferor_outime")
-	private Date transferorOutime;
+	private String transferorOutime;
     /**上年度回现金额*/
     @TableField(value = "aocr_ly")
 	private Double aocrLy;
@@ -189,9 +189,9 @@ public class BbjZcPropertyPkg extends AbstractEntity<String> {
 	}
 	/**
 	 * 获取  interestAccrualEndtime
-	 *@return: Date  计息截止日期
+	 *@return: String  计息截止日期
 	 */
-	public Date getInterestAccrualEndtime(){
+	public String getInterestAccrualEndtime(){
 		return this.interestAccrualEndtime;
 	}
 
@@ -199,14 +199,14 @@ public class BbjZcPropertyPkg extends AbstractEntity<String> {
 	 * 设置  interestAccrualEndtime
 	 *@param: interestAccrualEndtime  计息截止日期
 	 */
-	public void setInterestAccrualEndtime(Date interestAccrualEndtime){
+	public void setInterestAccrualEndtime(String interestAccrualEndtime){
 		this.interestAccrualEndtime = interestAccrualEndtime;
 	}
 	/**
 	 * 获取  csOuttime
-	 *@return: Date  贷款方转出时间
+	 *@return: String  贷款方转出时间
 	 */
-	public Date getCsOuttime(){
+	public String getCsOuttime(){
 		return this.csOuttime;
 	}
 
@@ -214,14 +214,14 @@ public class BbjZcPropertyPkg extends AbstractEntity<String> {
 	 * 设置  csOuttime
 	 *@param: csOuttime  贷款方转出时间
 	 */
-	public void setCsOuttime(Date csOuttime){
+	public void setCsOuttime(String csOuttime){
 		this.csOuttime = csOuttime;
 	}
 	/**
 	 * 获取  csCtime
-	 *@return: Date  贷款方公告时间
+	 *@return: String  贷款方公告时间
 	 */
-	public Date getCsCtime(){
+	public String getCsCtime(){
 		return this.csCtime;
 	}
 
@@ -229,14 +229,14 @@ public class BbjZcPropertyPkg extends AbstractEntity<String> {
 	 * 设置  csCtime
 	 *@param: csCtime  贷款方公告时间
 	 */
-	public void setCsCtime(Date csCtime){
+	public void setCsCtime(String csCtime){
 		this.csCtime = csCtime;
 	}
 	/**
 	 * 获取  transferorOutime
-	 *@return: Date  转让方转出时间
+	 *@return: String  转让方转出时间
 	 */
-	public Date getTransferorOutime(){
+	public String getTransferorOutime(){
 		return this.transferorOutime;
 	}
 
@@ -244,7 +244,7 @@ public class BbjZcPropertyPkg extends AbstractEntity<String> {
 	 * 设置  transferorOutime
 	 *@param: transferorOutime  转让方转出时间
 	 */
-	public void setTransferorOutime(Date transferorOutime){
+	public void setTransferorOutime(String transferorOutime){
 		this.transferorOutime = transferorOutime;
 	}
 	/**

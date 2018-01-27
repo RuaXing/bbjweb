@@ -3,14 +3,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>债权_借款合同</title>
+    <title>债权_担保合同</title>
     <meta name="decorator" content="form"/>
     <html:css name="bootstrap-fileinput" />
     <html:css name="simditor" />
 </head>
 
-<body class="white-bg"  formid="bbjGlZqJkhtForm">
-    <form:form id="bbjGlZqJkhtForm" modelAttribute="data" method="post" class="form-horizontal">
+<body class="white-bg"  formid="bbjGlZqDbhtForm">
+    <form:form id="bbjGlZqDbhtForm" modelAttribute="data" method="post" class="form-horizontal">
 		<form:hidden path="id"/>
 		<table  class="table table-bordered  table-condensed dataTables-example dataTable no-footer">
 		   <tbody>

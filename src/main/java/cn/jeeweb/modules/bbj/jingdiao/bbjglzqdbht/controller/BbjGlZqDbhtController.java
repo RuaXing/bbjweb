@@ -1,4 +1,4 @@
-package cn.jeeweb.modules.bbj.jingdiao.bbjglzqddht.controller;
+package cn.jeeweb.modules.bbj.jingdiao.bbjglzqdbht.controller;
 
 import cn.jeeweb.core.common.data.DuplicateValid;
 import cn.jeeweb.core.model.AjaxJson;
@@ -26,20 +26,20 @@ import javax.servlet.http.HttpServletResponse;
 import javax.validation.Valid;
 import java.io.IOException;
 import java.util.List;
-import cn.jeeweb.modules.bbj.jingdiao.bbjglzqddht.entity.BbjGlZqDbht;
-import cn.jeeweb.modules.bbj.jingdiao.bbjglzqddht.service.IBbjGlZqDbhtService;
+import cn.jeeweb.modules.bbj.jingdiao.bbjglzqdbht.entity.BbjGlZqDbht;
+import cn.jeeweb.modules.bbj.jingdiao.bbjglzqdbht.service.IBbjGlZqDbhtService;
 
 /**   
  * @Title: 债权_担保合同
  * @Description: 债权_担保合同
  * @author even
- * @date 2018-01-27 17:59:05
+ * @date 2018-01-28 00:48:13
  * @version V1.0   
  *
  */
 @Controller
-@RequestMapping("${admin.url.prefix}/bbjglzqddht/bbjglzqdbht")
-@RequiresPathPermission("bbjglzqddht:bbjglzqdbht")
+@RequestMapping("${admin.url.prefix}/bbjglzqdbht/bbjglzqdbht")
+@RequiresPathPermission("bbjglzqdbht:bbjglzqdbht")
 public class BbjGlZqDbhtController extends BaseBeanController<BbjGlZqDbht> {
 
     @Autowired

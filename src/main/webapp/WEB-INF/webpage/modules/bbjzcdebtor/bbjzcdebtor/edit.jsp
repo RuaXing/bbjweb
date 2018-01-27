@@ -46,17 +46,6 @@
 						<label class="Validform_checktip"></label>
 					</td>
 				</tr>
-				<tr>
-					<td  class="width-15 active text-right">	
-		              <label>备注信息:</label>
-		            </td>
-					<td class="width-35">
-						<form:input path="remarks" htmlEscape="false" class="form-control"      />
-						<label class="Validform_checktip"></label>
-					</td>
-					<td class="width-15 active text-right"></td>
-		   			<td class="width-35" ></td>
-		  		</tr>
 		      
 		   </tbody>
 		</table>   

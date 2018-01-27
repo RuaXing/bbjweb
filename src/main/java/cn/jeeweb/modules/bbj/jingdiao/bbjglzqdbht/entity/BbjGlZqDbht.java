@@ -1,4 +1,4 @@
-package cn.jeeweb.modules.bbj.jingdiao.bbjglzqddht.entity;
+package cn.jeeweb.modules.bbj.jingdiao.bbjglzqdbht.entity;
 
 import cn.jeeweb.core.common.entity.AbstractEntity;
 import com.baomidou.mybatisplus.annotations.TableId;
@@ -11,7 +11,7 @@ import com.baomidou.mybatisplus.enums.FieldFill;
  * @Title: 债权_担保合同
  * @Description: 债权_担保合同
  * @author even
- * @date 2018-01-27 17:59:05
+ * @date 2018-01-28 00:48:13
  * @version V1.0   
  *
  */
@@ -19,7 +19,7 @@ import com.baomidou.mybatisplus.enums.FieldFill;
 @SuppressWarnings("serial")
 public class BbjGlZqDbht extends AbstractEntity<String> {
 
-    /**编号*/
+    /**主键*/
     @TableId(value = "id", type = IdType.UUID)
 	private String id;
     /**债权编号*/
@@ -31,7 +31,7 @@ public class BbjGlZqDbht extends AbstractEntity<String> {
 	
 	/**
 	 * 获取  id
-	 *@return: String  编号
+	 *@return: String  主键
 	 */
 	public String getId(){
 		return this.id;
@@ -39,7 +39,7 @@ public class BbjGlZqDbht extends AbstractEntity<String> {
 
 	/**
 	 * 设置  id
-	 *@param: id  编号
+	 *@param: id  主键
 	 */
 	public void setId(String id){
 		this.id = id;

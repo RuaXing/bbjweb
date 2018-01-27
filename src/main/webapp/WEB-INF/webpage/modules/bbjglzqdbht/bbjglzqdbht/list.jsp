@@ -7,10 +7,12 @@
   <meta name="decorator" content="list"/>
 </head>
 <body title="债权_担保合同">
-<grid:grid id="bbjGlZqDbhtGridId" url="${adminPath}/bbjglzqddht/bbjglzqdbht/ajaxList">
+<grid:grid id="bbjGlZqDbhtGridId" url="${adminPath}/bbjglzqdbht/bbjglzqdbht/ajaxList">
 	<grid:column label="sys.common.key" hidden="true"   name="id" width="100"/>
 	<grid:column label="sys.common.opt"  name="opt" formatter="button" width="100"/>
 	<grid:button groupname="opt" function="delete" />
+    <grid:column label="债权编号"  name="zqId" />
+    <grid:column label="合同编号"  name="htId" />
 	<grid:toolbar function="create"/>
 	<grid:toolbar function="update"/>
 	<grid:toolbar function="delete"/>

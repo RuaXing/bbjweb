@@ -13,7 +13,7 @@ import cn.jeeweb.modules.sys.entity.User;
  * @Title: 债权表
  * @Description: 债权表
  * @author even
- * @date 2018-01-27 22:37:57
+ * @date 2018-01-28 00:24:05
  * @version V1.0   
  *
  */
@@ -62,7 +62,7 @@ public class BbjZcObligatoryRight extends AbstractEntity<String> {
 	private Date importantTimeWarning;
     /**预计回款金额*/
     @TableField(value = "expected_amount_of_payment")
-	private Double expectedAmountOfPayment;
+	private String expectedAmountOfPayment;
     /**预计回款时间*/
     @TableField(value = "expected_return_time")
 	private Date expectedReturnTime;
@@ -291,9 +291,9 @@ public class BbjZcObligatoryRight extends AbstractEntity<String> {
 	}
 	/**
 	 * 获取  expectedAmountOfPayment
-	 *@return: Double  预计回款金额
+	 *@return: String  预计回款金额
 	 */
-	public Double getExpectedAmountOfPayment(){
+	public String getExpectedAmountOfPayment(){
 		return this.expectedAmountOfPayment;
 	}
 
@@ -301,7 +301,7 @@ public class BbjZcObligatoryRight extends AbstractEntity<String> {
 	 * 设置  expectedAmountOfPayment
 	 *@param: expectedAmountOfPayment  预计回款金额
 	 */
-	public void setExpectedAmountOfPayment(Double expectedAmountOfPayment){
+	public void setExpectedAmountOfPayment(String expectedAmountOfPayment){
 		this.expectedAmountOfPayment = expectedAmountOfPayment;
 	}
 	/**
