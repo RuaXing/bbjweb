@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="cn.jeeweb.modules.bbj.jingdiao.bbjkht.mapper.BbjZcLoanContractMapper" >
+
+  <sql id="Base_Column_List" >
+    t.id,
+    t.contract_type,
+    t.borrower,
+    t.loan_lender,
+    t.loan_contract_no,
+    t.contract_date,
+    t.contract_principal,
+    t.contract_amount,
+    t.principal_balance,
+    t.amount_balance,
+    t.interest_rate_deadline,
+    t.borrowed_start,
+    t.borrowed_end,
+    t.borrowing_use,
+    t.id_litigation,
+    t.agent,
+    t.create_by AS "createBy.id",
+    t.create_date,
+    t.update_by AS "updateBy.id",
+    t.update_date,
+    t.remarks,
+    t.del_flag
+  </sql>
+  
+</mapper>

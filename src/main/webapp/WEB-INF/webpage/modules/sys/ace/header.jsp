@@ -305,14 +305,14 @@
 							修改密码
 						</a>
 					</li>
-					<%--<li class="divider"></li>
+					<li class="divider"></li>
                     <li>
                     	<a href="#" onclick="changeStyle('uadmin')"><i class="ace-icon fa  fa-wikipedia-w"></i>FLAT主题</a>
                     </li>
                     <li>
                     	<a href="#" onclick="changeStyle('inspinia')"><i class="ace-icon fa  fa-wikipedia-w"></i>INSPINIA主题</a>
                     </li>
-					<li class="divider"></li>--%>
+					<li class="divider"></li>
 					<li>
 						<a href="${adminPath}/logout">
 							<i class="ace-icon fa fa-power-off"></i>

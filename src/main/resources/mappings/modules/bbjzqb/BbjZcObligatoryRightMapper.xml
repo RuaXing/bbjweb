@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="cn.jeeweb.modules.bbj.jingdiao.bbjzqb.mapper.BbjZcObligatoryRightMapper" >
+
+  <sql id="Base_Column_List" >
+    t.id,
+    t.item_no,
+    t.item_name,
+    t.credit_type,
+    t.principal_balance,
+    t.interest,
+    t.total_interest,
+    t.guarantor,
+    t.pledge,
+    t.litigation_stage,
+    t.pledge_sequence,
+    t.check_time_warning,
+    t.important_time_warning,
+    t.expected_amount_of_payment,
+    t.expected_return_time,
+    t.quasi_disposal_mode,
+    t.remark,
+    t.agent,
+    t.create_by AS "createBy.id",
+    t.create_date,
+    t.update_by AS "updateBy.id",
+    t.update_date,
+    t.remarks,
+    t.del_flag
+  </sql>
+  
+</mapper>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="cn.jeeweb.modules.bbj.jingdiao.bbjdbht.mapper.BbjZcGuaranteeContractMapper" >
+
+  <sql id="Base_Column_List" >
+    t.id,
+    t.create_by AS "createBy.id",
+    t.create_date,
+    t.update_by AS "updateBy.id",
+    t.update_date,
+    t.del_flag,
+    t.remarks,
+    t.contract_id,
+    t.contract_type,
+    t.guarantee,
+    t.guarantee_type,
+    t.date_of_contract,
+    t.dbzzq_starttime,
+    t.dbzzq_entime,
+    t.guarantee_period,
+    t.amount_guaranteed,
+    t.dbqxzzq_money,
+    t.guarantee_way,
+    t.is_lawsuit,
+    t.agent
+  </sql>
+  
+</mapper>

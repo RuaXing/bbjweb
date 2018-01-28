@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="cn.jeeweb.modules.bbj.jingdiao.bbjxmgl.mapper.BbjZcProjectManagementMapper" >
+
+  <sql id="Base_Column_List" >
+    t.id,
+    t.create_by AS "createBy.id",
+    t.create_date,
+    t.update_by AS "updateBy.id",
+    t.update_date,
+    t.del_flag,
+    t.remarks,
+    t.item_number,
+    t.project_name,
+    t.repayment_amount,
+    t.payback_period,
+    t.payment_progress,
+    t.days_overdue,
+    t.overdue_instructions,
+    t.attn
+  </sql>
+  
+</mapper>
