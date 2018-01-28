@@ -58,7 +58,7 @@
 		              <label><font color="red">*</font>经营范围:</label>
 		            </td>
 					<td class="width-35">
-						<form:select path="businessScope" htmlEscape="false" class="form-control"  dict="sex"      />
+						<form:select path="businessScope" htmlEscape="false" class="form-control"  dict="bbjjyfw"      />
 						<label class="Validform_checktip"></label>
 					</td>
 				</tr>
@@ -67,7 +67,7 @@
 		              <label><font color="red">*</font>查封顺序:</label>
 		            </td>
 					<td class="width-35">
-						<form:select path="attachmentOrder" htmlEscape="false" class="form-control"  dict="sex"      />
+						<form:select path="attachmentOrder" htmlEscape="false" class="form-control"  dict="cfsw"      />
 						<label class="Validform_checktip"></label>
 					</td>
 					<td  class="width-15 active text-right">	

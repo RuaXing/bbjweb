@@ -35,7 +35,7 @@
 		              <label><font color="red">*</font>类型:</label>
 		            </td>
 					<td class="width-35">
-						<form:select path="type" htmlEscape="false" class="form-control"  dict="sex"      />
+						<form:select path="type" htmlEscape="false" class="form-control"  dict="zcxz"      />
 						<label class="Validform_checktip"></label>
 					</td>
 					<td  class="width-15 active text-right">	
