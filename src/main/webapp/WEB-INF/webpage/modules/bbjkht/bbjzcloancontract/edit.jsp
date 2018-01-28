@@ -19,7 +19,7 @@
 		              <label><font color="red">*</font>合同类型:</label>
 		            </td>
 					<td class="width-35">
-						<form:select path="contractType" htmlEscape="false" class="form-control"  dict="jkhthtlx"      />
+						<form:select path="contractType" htmlEscape="false" class="form-control"  dict="bbjhtlx"      />
 						<label class="Validform_checktip"></label>
 					</td>
 					<td  class="width-15 active text-right">	
@@ -115,14 +115,14 @@
 		              <label><font color="red">*</font>借款用途:</label>
 		            </td>
 					<td class="width-35">
-						<form:select path="borrowingUse" htmlEscape="false" class="form-control"  dict="jkhtjkyt"      />
+						<form:select path="borrowingUse" htmlEscape="false" class="form-control"  dict="bbjjkyt"      />
 						<label class="Validform_checktip"></label>
 					</td>
 					<td  class="width-15 active text-right">	
 		              <label><font color="red">*</font>是否诉讼:</label>
 		            </td>
 					<td class="width-35">
-						<form:select path="idLitigation" htmlEscape="false" class="form-control"  dict="jkhtsfss"      />
+						<form:select path="idLitigation" htmlEscape="false" class="form-control"  dict="sf"      />
 						<label class="Validform_checktip"></label>
 					</td>
 				</tr>

@@ -19,7 +19,7 @@
 		              <label><font color="red">*</font>债务人类型:</label>
 		            </td>
 					<td class="width-35">
-						<form:select path="debtorType" htmlEscape="false" class="form-control"  dict="zwrlx"      />
+						<form:select path="debtorType" htmlEscape="false" class="form-control"  dict="bbjzwrlx"      />
 						<label class="Validform_checktip"></label>
 					</td>
 					<td  class="width-15 active text-right">	
@@ -42,7 +42,7 @@
 		              <label><font color="red">*</font>主体类型:</label>
 		            </td>
 					<td class="width-35">
-						<form:select path="subjecttype" htmlEscape="false" class="form-control"  dict="zwrztlx"      />
+						<form:select path="subjecttype" htmlEscape="false" class="form-control"  dict="bbjztlx"      />
 						<label class="Validform_checktip"></label>
 					</td>
 				</tr>

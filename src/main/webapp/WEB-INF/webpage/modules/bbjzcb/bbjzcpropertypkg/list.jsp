@@ -9,8 +9,6 @@
 <body title="资产包">
 <grid:grid id="bbjZcPropertyPkgGridId" url="${adminPath}/bbjzcb/bbjzcpropertypkg/ajaxList">
 	<grid:column label="sys.common.key" hidden="true"   name="id" width="100"/>
-	<grid:column label="sys.common.opt"  name="opt" formatter="button" width="100"/>
-	<grid:button groupname="opt" function="delete" />
     <grid:column label="贷款发放行"  name="loanOrigination"  query="true"  queryMode="input"  condition="like" />
     <grid:column label="转让方"  name="transferor"  query="true"  queryMode="input"  condition="like" />
     <grid:column label="持有方"  name="holder"  query="true"  queryMode="input"  condition="like" />
@@ -24,6 +22,8 @@
     <grid:column label="上年度回现金额"  name="aocrLy" />
     <grid:column label="本年度回现金额"  name="aocrTy" />
     <grid:column label="年度回现目标"  name="annualReturnTarget" />
+    <grid:column label="sys.common.opt"  name="opt" formatter="button" width="100"/>
+    <grid:button groupname="opt" function="delete" />
 	<grid:toolbar function="create"/>
 	<grid:toolbar function="update"/>
 	<grid:toolbar function="delete"/>

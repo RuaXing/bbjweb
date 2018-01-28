@@ -9,9 +9,7 @@
 <body title="借款合同">
 <grid:grid id="bbjZcLoanContractGridId" url="${adminPath}/bbjkht/bbjzcloancontract/ajaxList">
 	<grid:column label="sys.common.key" hidden="true"   name="id" width="100"/>
-	<grid:column label="sys.common.opt"  name="opt" formatter="button" width="100"/>
-	<grid:button groupname="opt" function="delete" />
-    <grid:column label="合同类型"  name="contractType"  query="true"  queryMode="select"  condition="eq"  dict="jkhthtlx"/>
+    <grid:column label="合同类型"  name="contractType"  query="true"  queryMode="select"  condition="eq"  dict="bbjhtlx"/>
     <grid:column label="借款人"  name="borrower"  query="true"  queryMode="input"  condition="like" />
     <grid:column label="贷款行"  name="loanLender"  query="true"  queryMode="input"  condition="like" />
     <grid:column label="借款合同编号"  name="loanContractNo"  query="true"  queryMode="input"  condition="eq" />
@@ -23,9 +21,11 @@
     <grid:column label="计息截至日期"  name="interestRateDeadline" />
     <grid:column label="借款开始时间"  name="borrowedStart" />
     <grid:column label="借款结束时间"  name="borrowedEnd" />
-    <grid:column label="借款用途"  name="borrowingUse"  query="true"  queryMode="select"  condition="eq"  dict="jkhtjkyt"/>
-    <grid:column label="是否诉讼"  name="idLitigation"  query="true"  queryMode="select"  condition="eq"  dict="jkhtsfss"/>
+    <grid:column label="借款用途"  name="borrowingUse"  query="true"  queryMode="select"  condition="eq"  dict="bbjjkyt"/>
+    <grid:column label="是否诉讼"  name="idLitigation"  query="true"  queryMode="select"  condition="eq"  dict="sf"/>
     <grid:column label="经办人"  name="agent"  query="true"  queryMode="input"  condition="like" />
+    <grid:column label="sys.common.opt"  name="opt" formatter="button" width="100"/>
+    <grid:button groupname="opt" function="delete" />
 	<grid:toolbar function="create"/>
 	<grid:toolbar function="update"/>
 	<grid:toolbar function="delete"/>

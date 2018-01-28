@@ -7,7 +7,7 @@ import cn.jeeweb.modules.bbj.jingdiao.bbjzwr.entity.BbjZcDebtor;
  * @Title: 债务人
  * @Description: 债务人
  * @author even
- * @date 2018-01-28 14:21:58
+ * @date 2018-01-28 16:33:48
  * @version V1.0   
  *
  */

@@ -35,7 +35,7 @@
 		              <label><font color="red">*</font>授信类型:</label>
 		            </td>
 					<td class="width-35">
-						<form:select path="creditType" htmlEscape="false" class="form-control"  dict="zqbsxlx"      />
+						<form:select path="creditType" htmlEscape="false" class="form-control"  dict="bbjsxlx"      />
 						<label class="Validform_checktip"></label>
 					</td>
 					<td  class="width-15 active text-right">	
@@ -83,14 +83,14 @@
 		              <label><font color="red">*</font>诉讼阶段:</label>
 		            </td>
 					<td class="width-35">
-						<form:select path="litigationStage" htmlEscape="false" class="form-control"  dict="zqbssjd"      />
+						<form:select path="litigationStage" htmlEscape="false" class="form-control"  dict="bbjsujd"      />
 						<label class="Validform_checktip"></label>
 					</td>
 					<td  class="width-15 active text-right">	
 		              <label><font color="red">*</font>抵/质押物查封顺序:</label>
 		            </td>
 					<td class="width-35">
-						<form:select path="pledgeSequence" htmlEscape="false" class="form-control"  dict="zqbdzywcfsx"      />
+						<form:select path="pledgeSequence" htmlEscape="false" class="form-control"  dict="cfsw"      />
 						<label class="Validform_checktip"></label>
 					</td>
 				</tr>
@@ -99,14 +99,14 @@
 		              <label>查封时间预警:</label>
 		            </td>
 					<td class="width-35">
-						<form:input path="checkTimeWarning" htmlEscape="false" class="form-control layer-date" placeholder="YYYY-MM-DD hh:mm:ss" onclick="laydate({istime: true, format: 'YYYY-MM-DD hh:mm:ss'})"       />
+						<form:input path="checkTimeWarning" htmlEscape="false" class="form-control layer-date" placeholder="选择时间" onclick="laydate({istime: true, format: 'YYYY-MM-DD hh:mm:ss'})"       />
 						<label class="Validform_checktip"></label>
 					</td>
 					<td  class="width-15 active text-right">	
 		              <label>重要时间预警:</label>
 		            </td>
 					<td class="width-35">
-						<form:input path="importantTimeWarning" htmlEscape="false" class="form-control layer-date" placeholder="YYYY-MM-DD hh:mm:ss" onclick="laydate({istime: true, format: 'YYYY-MM-DD hh:mm:ss'})"       />
+						<form:input path="importantTimeWarning" htmlEscape="false" class="form-control layer-date" placeholder="选择时间" onclick="laydate({istime: true, format: 'YYYY-MM-DD hh:mm:ss'})"       />
 						<label class="Validform_checktip"></label>
 					</td>
 				</tr>
@@ -131,7 +131,7 @@
 		              <label><font color="red">*</font>拟处置方式:</label>
 		            </td>
 					<td class="width-35">
-						<form:select path="quasiDisposalMode" htmlEscape="false" class="form-control"  dict="zqbnczfs"      />
+						<form:select path="quasiDisposalMode" htmlEscape="false" class="form-control"  dict="bbjczfs"      />
 						<label class="Validform_checktip"></label>
 					</td>
 					<td  class="width-15 active text-right">	

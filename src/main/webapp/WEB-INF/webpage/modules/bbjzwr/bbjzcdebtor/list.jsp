@@ -11,10 +11,10 @@
 	<grid:column label="sys.common.key" hidden="true"   name="id" width="100"/>
 	<grid:column label="sys.common.opt"  name="opt" formatter="button" width="100"/>
 	<grid:button groupname="opt" function="delete" />
-    <grid:column label="债务人类型"  name="debtorType"  query="true"  queryMode="select"  condition="eq"  dict="zwrlx"/>
+    <grid:column label="债务人类型"  name="debtorType"  query="true"  queryMode="select"  condition="eq"  dict="bbjzwrlx"/>
     <grid:column label="债务人名称"  name="debtorName"  query="true"  queryMode="input"  condition="like" />
     <grid:column label="主体名称"  name="subjectName"  query="true"  queryMode="input"  condition="like" />
-    <grid:column label="主体类型"  name="subjecttype"  query="true"  queryMode="select"  condition="eq"  dict="zwrztlx"/>
+    <grid:column label="主体类型"  name="subjecttype"  query="true"  queryMode="select"  condition="eq"  dict="bbjztlx"/>
 	<grid:toolbar function="create"/>
 	<grid:toolbar function="update"/>
 	<grid:toolbar function="delete"/>
