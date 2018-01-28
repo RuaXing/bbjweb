@@ -7,7 +7,7 @@
 <html lang="en">
 
 <head>
-    <title><spring:message code="sys.site.title" arguments="${platformName}"/></title>
+    <title>不良资产管理系统</title>
     <meta name="keywords" content="<spring:message code="sys.site.keywords" arguments="${platformName}"/>">
     <meta name="description" content="<spring:message code="sys.site.description" arguments="${platformName}"/>">
     
