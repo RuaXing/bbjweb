@@ -1,9 +1,9 @@
-package cn.jeeweb.modules.bbj.jingdiao.zwrglzwrfr.service.impl;
+package cn.jeeweb.modules.bbj.jingdiao.bbjglzwrfr.service.impl;
 
 import cn.jeeweb.core.common.service.impl.CommonServiceImpl;
-import cn.jeeweb.modules.bbj.jingdiao.zwrglzwrfr.mapper.BbjGlZwrFrMapper;
-import cn.jeeweb.modules.bbj.jingdiao.zwrglzwrfr.entity.BbjGlZwrFr;
-import cn.jeeweb.modules.bbj.jingdiao.zwrglzwrfr.service.IBbjGlZwrFrService;
+import cn.jeeweb.modules.bbj.jingdiao.bbjglzwrfr.mapper.BbjGlZwrFrMapper;
+import cn.jeeweb.modules.bbj.jingdiao.bbjglzwrfr.entity.BbjGlZwrFr;
+import cn.jeeweb.modules.bbj.jingdiao.bbjglzwrfr.service.IBbjGlZwrFrService;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 

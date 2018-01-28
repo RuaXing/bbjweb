@@ -1,7 +1,7 @@
-package cn.jeeweb.modules.bbj.jingdiao.zwrglzwrfr.service;
+package cn.jeeweb.modules.bbj.jingdiao.bbjglzwrfr.service;
 
 import cn.jeeweb.core.common.service.ICommonService;
-import cn.jeeweb.modules.bbj.jingdiao.zwrglzwrfr.entity.BbjGlZwrFr;
+import cn.jeeweb.modules.bbj.jingdiao.bbjglzwrfr.entity.BbjGlZwrFr;
 
 /**   
  * @Title: 债务人_法人

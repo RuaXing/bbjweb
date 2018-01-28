@@ -1,7 +1,7 @@
-package cn.jeeweb.modules.bbj.jingdiao.zwrglzwrfr.mapper;
+package cn.jeeweb.modules.bbj.jingdiao.bbjglzwrfr.mapper;
 
 import com.baomidou.mybatisplus.mapper.BaseMapper;
-import cn.jeeweb.modules.bbj.jingdiao.zwrglzwrfr.entity.BbjGlZwrFr;
+import cn.jeeweb.modules.bbj.jingdiao.bbjglzwrfr.entity.BbjGlZwrFr;
  
 /**   
  * @Title: 债务人_法人数据库控制层接口

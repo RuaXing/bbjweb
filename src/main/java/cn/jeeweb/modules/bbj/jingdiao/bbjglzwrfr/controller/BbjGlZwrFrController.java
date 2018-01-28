@@ -1,4 +1,4 @@
-package cn.jeeweb.modules.bbj.jingdiao.zwrglzwrfr.controller;
+package cn.jeeweb.modules.bbj.jingdiao.bbjglzwrfr.controller;
 
 import cn.jeeweb.core.common.data.DuplicateValid;
 import cn.jeeweb.core.model.AjaxJson;
@@ -26,8 +26,8 @@ import javax.servlet.http.HttpServletResponse;
 import javax.validation.Valid;
 import java.io.IOException;
 import java.util.List;
-import cn.jeeweb.modules.bbj.jingdiao.zwrglzwrfr.entity.BbjGlZwrFr;
-import cn.jeeweb.modules.bbj.jingdiao.zwrglzwrfr.service.IBbjGlZwrFrService;
+import cn.jeeweb.modules.bbj.jingdiao.bbjglzwrfr.entity.BbjGlZwrFr;
+import cn.jeeweb.modules.bbj.jingdiao.bbjglzwrfr.service.IBbjGlZwrFrService;
 
 /**   
  * @Title: 债务人_法人
