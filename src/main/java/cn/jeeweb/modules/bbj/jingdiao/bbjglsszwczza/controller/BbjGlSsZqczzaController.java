@@ -1,4 +1,4 @@
-package cn.jeeweb.modules.bbj.jingdiao.bbglsszwczza.controller;
+package cn.jeeweb.modules.bbj.jingdiao.bbjglsszwczza.controller;
 
 import cn.jeeweb.core.common.data.DuplicateValid;
 import cn.jeeweb.core.model.AjaxJson;
@@ -26,8 +26,8 @@ import javax.servlet.http.HttpServletResponse;
 import javax.validation.Valid;
 import java.io.IOException;
 import java.util.List;
-import cn.jeeweb.modules.bbj.jingdiao.bbglsszwczza.entity.BbjGlSsZqczza;
-import cn.jeeweb.modules.bbj.jingdiao.bbglsszwczza.service.IBbjGlSsZqczzaService;
+import cn.jeeweb.modules.bbj.jingdiao.bbjglsszwczza.entity.BbjGlSsZqczza;
+import cn.jeeweb.modules.bbj.jingdiao.bbjglsszwczza.service.IBbjGlSsZqczzaService;
 
 /**   
  * @Title: 诉讼_债权处置障碍

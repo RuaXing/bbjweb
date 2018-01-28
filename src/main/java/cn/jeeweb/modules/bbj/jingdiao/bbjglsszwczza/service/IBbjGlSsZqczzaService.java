@@ -1,7 +1,7 @@
-package cn.jeeweb.modules.bbj.jingdiao.bbglsszwczza.service;
+package cn.jeeweb.modules.bbj.jingdiao.bbjglsszwczza.service;
 
 import cn.jeeweb.core.common.service.ICommonService;
-import cn.jeeweb.modules.bbj.jingdiao.bbglsszwczza.entity.BbjGlSsZqczza;
+import cn.jeeweb.modules.bbj.jingdiao.bbjglsszwczza.entity.BbjGlSsZqczza;
 
 /**   
  * @Title: 诉讼_债权处置障碍

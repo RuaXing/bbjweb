@@ -1,7 +1,7 @@
-package cn.jeeweb.modules.bbj.jingdiao.bbglsszwczza.mapper;
+package cn.jeeweb.modules.bbj.jingdiao.bbjglsszwczza.mapper;
 
 import com.baomidou.mybatisplus.mapper.BaseMapper;
-import cn.jeeweb.modules.bbj.jingdiao.bbglsszwczza.entity.BbjGlSsZqczza;
+import cn.jeeweb.modules.bbj.jingdiao.bbjglsszwczza.entity.BbjGlSsZqczza;
  
 /**   
  * @Title: 诉讼_债权处置障碍数据库控制层接口

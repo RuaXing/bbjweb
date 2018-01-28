@@ -1,4 +1,4 @@
-package cn.jeeweb.modules.bbj.jingdiao.bbglsszwczza.entity;
+package cn.jeeweb.modules.bbj.jingdiao.bbjglsszwczza.entity;
 
 import cn.jeeweb.core.common.entity.AbstractEntity;
 import com.baomidou.mybatisplus.annotations.TableId;
