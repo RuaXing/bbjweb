@@ -35,7 +35,7 @@
 		              <label>性别:</label>
 		            </td>
 					<td class="width-35">
-						<form:input path="gender" htmlEscape="false" class="form-control"  datatype="*"    />
+						<form:select path="gender" htmlEscape="false" class="form-control"     dict="sex"  />
 						<label class="Validform_checktip"></label>
 					</td>
 					<td  class="width-15 active text-right">	
