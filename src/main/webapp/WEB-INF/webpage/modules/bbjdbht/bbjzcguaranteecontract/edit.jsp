@@ -35,7 +35,7 @@
 		              <label>合同类型:</label>
 		            </td>
 					<td class="width-35">
-						<form:input path="contracttype" htmlEscape="false" class="form-control"      />
+						<form:select path="contracttype" htmlEscape="false" class="form-control"  dict="bbjhtlx"     />
 						<label class="Validform_checktip"></label>
 					</td>
 					<td  class="width-15 active text-right">	
@@ -51,7 +51,7 @@
 		              <label>担保类型:</label>
 		            </td>
 					<td class="width-35">
-						<form:input path="guaranteetype" htmlEscape="false" class="form-control"      />
+						<form:select path="guaranteetype" htmlEscape="false" class="form-control"  dict="bbjdbfs"    />
 						<label class="Validform_checktip"></label>
 					</td>
 					<td  class="width-15 active text-right">	
@@ -106,7 +106,7 @@
 		              <label>担保方式:</label>
 		            </td>
 					<td class="width-35">
-						<form:input path="guaranteeway" htmlEscape="false" class="form-control"      />
+						<form:select path="guaranteeway" htmlEscape="false" class="form-control"  dict="bbjdbfs"    />
 						<label class="Validform_checktip"></label>
 					</td>
 				</tr>
@@ -115,7 +115,7 @@
 		              <label>是否诉讼:</label>
 		            </td>
 					<td class="width-35">
-						<form:input path="islawsuit" htmlEscape="false" class="form-control"      />
+						<form:select path="islawsuit" htmlEscape="false" class="form-control"   dict="sf"   />
 						<label class="Validform_checktip"></label>
 					</td>
 					<td  class="width-15 active text-right">	

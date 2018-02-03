@@ -10,7 +10,7 @@
 <grid:grid id="bbjZcGuaranteeContractGridId" url="${adminPath}/bbjdbht/bbjzcguaranteecontract/ajaxList">
 	<grid:column label="sys.common.key" hidden="true"   name="id" width="100"/>
 	<grid:column label="sys.common.opt"  name="opt" formatter="button" width="100"/>
-	<grid:button groupname="opt" function="delete" />
+
     <grid:column label="备注信息"  name="remarks" />
     <grid:column label="合同编号"  name="contractid"  query="true"  queryMode="input"  condition="eq" />
     <grid:column label="合同类型"  name="contracttype"  query="true"  queryMode="input"  condition="eq" />
@@ -25,6 +25,7 @@
     <grid:column label="担保方式"  name="guaranteeway" />
     <grid:column label="是否诉讼"  name="islawsuit" />
     <grid:column label="经办人"  name="agent" />
+    <grid:button groupname="opt" function="delete" />
 	<grid:toolbar function="create"/>
 	<grid:toolbar function="update"/>
 	<grid:toolbar function="delete"/>
